@@ -5,7 +5,7 @@
 		$_SESSION['username']=$username=$_POST['username'];
 		$_SESSION['password']=$password=$_POST['password'];
 
-		$conn=mysqli_connect("localhost","root","","id3274236_project");
+		$conn=mysqli_connect("localhost","root","","project");
 		$istaken=!mysqli_query($conn,"INSERT INTO account VALUES('$username','$password')");
 		mysqli_close($conn);
 		if (!$istaken){
