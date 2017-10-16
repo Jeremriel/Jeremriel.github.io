@@ -4,7 +4,7 @@
 		$_SESSION['username']=$username=$_POST['username'];
 		$_SESSION['password']=$password=$_POST['password'];
 
-		$conn=mysqli_connect("localhost","root","","id3274236_project");
+		$conn=mysqli_connect("localhost","root","","project");
 		$result=mysqli_query($conn,"SELECT * FROM account WHERE username='$username' and password='$password'");
 		$data=mysqli_fetch_assoc($result);
 		mysqli_close($conn);
