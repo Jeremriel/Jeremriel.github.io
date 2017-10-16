@@ -31,7 +31,7 @@
 			<input type="submit" name="submitLogin" value="Log In">
 		</form>
 		<br><span>Don't have an account? <a href="Register.php">Volunteer now!!!</a></span></br>
-		<br><a href="Index.html">Go back</a>
+		<br><a href="index.html">Go back</a>
 	</div>
 	</center>
 </body>
