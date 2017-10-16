@@ -1,0 +1,183 @@
+	/* Define custom fonts */
+
+@font-face
+{
+    font-family: 'BallparkWeiner';
+    src: url('Fonts/ballpark.eot');
+    src: url('Fonts/ballpark.eot?#iefix') format('embedded-opentype'),
+         url('Fonts/ballpark.woff') format('woff'),
+         url('Fonts/ballpark.ttf') format('truetype'),
+         url('Fonts/ballpark.svg#BallparkWeiner') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'Dayrom';
+    src: url('Fonts/dayrom.eot');
+    src: url('Fonts/dayrom.eot?#iefix') format('embedded-opentype'),
+         url('Fonts/dayrom.woff') format('woff'),
+         url('Fonts/dayrom.ttf') format('truetype'),
+         url('Fonts/dayrom.svg#Dayrom') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* Main elements of the page */
+
+body {
+
+	margin: 0;
+	padding: 50px;
+	background: radial-gradient(lightblue, #FFFFFF 80%);
+	background-attachment: fixed;
+	margin:auto;
+	min-width: 700px;
+	position:center;
+	right: 60%;
+}
+#main_wrapper
+{
+    width: 1550px;
+	padding-bottom: 5px;
+	margin:auto;
+}
+
+section h1, footer h1, nav a
+{
+    font-family: Dayrom, serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+/* Header */
+
+header
+{
+
+}
+
+#main_title
+{
+	display: inline-block;
+}
+
+header h1
+{
+    font-family: 'BallparkWeiner', serif;
+    font-size: 2.5em;
+    font-weight: normal;
+}
+
+#logo, header h1
+{
+    display: inline-block;
+    margin-bottom: 0px;
+}
+
+header h2
+{
+    font-family: Dayrom, serif;
+    font-size: 1.1em;
+    margin-top: 0px;
+    font-weight: normal;
+}
+
+/* Navigation */
+
+nav
+{
+	float: center;
+	padding-bottom: 5px;
+    display: inline-block;
+    width: 99%;
+    text-align: right;
+}
+
+nav ul
+{
+    list-style-type: none;
+}
+
+nav li
+{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav a
+{
+    font-size: 1.3em;
+    color: red;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: violet;
+    border-bottom: 3px solid #760001;
+}
+
+/* PHP */
+
+input{
+			width:300px;
+			display: block;
+			font-size: 20px;
+		}
+
+/*	Banner	*/
+
+/* Banner */
+
+#Banner_image
+{
+    margin-top: 15px;
+    height: 200px;
+    border-radius: 5px;
+    background: url('Images/Sky.jpg') no-repeat;
+    position: relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 25px;
+}
+
+#Banner_description
+{
+    position: relative;
+    bottom: 0;
+    border-radius: 0px 0px 5px 5px;
+    width: 99.5%;
+    height: 33px;
+    padding-top: 15px;
+    padding-left: 4px;
+    background-color: rgb(24,24,24); /* Old browsers will read this */
+    background-color: rgba(24,24,24,0.8); /* New browsers will read this */
+    color: white;
+    font-size: 0.8em;
+    
+}
+
+.red_button
+{
+    display: inline-block;
+    height: 31px;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    background: url('images/red_background.png') repeat-x;
+    border: 1px solid #760001;
+    border-radius: 5px;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 3px 8px 0px 8px;
+    color: white;
+    text-decoration: none;
+}
+
+.red_button img
+{
+    border: 0;
+}

@@ -1,0 +1,12 @@
+Step 1: Place entire "Project" Folder to "htdocs" Folder (assuming you have installed xampp) within "xampp" Folder located
+at your C: Drive (Local Disk)
+
+Step 2: Open your "xampp" application and start "apache" and "mysql" ONLY
+
+Step 3 (Optional): Try to open "ProjectDB" within Project Folder. 
+       (Alternate): Open IE and type "localhost" as if you're searching for a website. You shall see the PHP main menu then,
+then go to phpMyAdmin and export ProjectDB.
+
+Step 4: Run Homepage.html  
+
+Step 5: Rise volume. Some html have background audio.
